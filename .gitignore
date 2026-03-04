@@ -1,0 +1,13 @@
+# Ignore database
+users.db
+
+# Ignore logs
+app.log
+
+# Ignore SSL certificates
+cert.pem
+key.pem
+
+# Python cache
+__pycache__/
+*.pyc
