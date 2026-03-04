@@ -1,50 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Secure SDLC Web Application</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f5f7fa;
-        }
 
-        h1 {
-            color: #2c3e50;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        h2 {
-            color: #34495e;
-        }
+<title>Secure SDLC Web Application</title>
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-        }
+<style>
 
-        .feature {
-            background: #eef3f8;
-            padding: 10px;
-            margin: 8px 0;
-            border-radius: 5px;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f5f7fa;
+}
 
-        a {
-            color: #2980b9;
-            text-decoration: none;
-        }
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
 
-    </style>
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+.feature {
+    background: #eef3f8;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+.github-button {
+
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    background: linear-gradient(45deg, #24292e, #0366d6);
+
+    border-radius: 8px;
+    text-decoration: none;
+
+    animation: pulse 2s infinite;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.github-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(3,102,214,0.6);
+}
+
+@keyframes pulse {
+
+    0% {
+        box-shadow: 0 0 0 0 rgba(3,102,214,0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 14px rgba(3,102,214,0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(3,102,214,0);
+    }
+}
+
+</style>
+
 </head>
 
 <body>
 
 <div class="container">
+
+<a href="https://github.com/sujankc67/sdlc_website" class="github-button">
+🚀 View Project on GitHub
+</a>
 
 <h1>🔐 Secure SDLC Demonstration Web Application</h1>
 
@@ -67,23 +111,14 @@ practices using a Flask web application.
 <h2>🔐 Privacy by Design</h2>
 
 <p>
-The application collects minimal personal data and secures
-credentials using cryptographic hashing while ensuring
-encrypted communication.
+The application collects minimal personal data and secures credentials using
+cryptographic hashing while ensuring encrypted communication.
 </p>
 
 <h2>🏗 Architecture</h2>
 
 <p>
-User → HTTPS → Flask Application → Input Validation → Password Hashing → Database → Logging
-</p>
-
-<h2>📂 GitHub Repository</h2>
-
-<p>
-<a href="https://github.com/sujankc67/sdlc_website">
-View Source Code on GitHub
-</a>
+User → HTTPS Request → Flask Application → Input Validation → Password Hashing → Database → Logging
 </p>
 
 <h2>🚀 Technologies Used</h2>
@@ -99,4 +134,5 @@ View Source Code on GitHub
 </div>
 
 </body>
+
 </html>
