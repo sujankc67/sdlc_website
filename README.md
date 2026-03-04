@@ -65,19 +65,7 @@ These practices help ensure **data confidentiality, integrity, and protection of
 
 System Flow:
 
-User
-↓
-HTTPS Request
-↓
-Flask Web Application
-↓
-Input Validation
-↓
-Password Hashing
-↓
-SQLite Database
-↓
-Security Logging
+User → HTTPS Request → Flask Application → Input Validation → Password Hashing → Database → Logging
 
 ---
 
