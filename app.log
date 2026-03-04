@@ -1,0 +1,64 @@
+2026-03-04 12:24:42,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.88.37:5000
+2026-03-04 12:24:42,665 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 12:24:57,705 - INFO - 192.168.88.37 - - [04/Mar/2026 12:24:57] "GET / HTTP/1.1" 200 -
+2026-03-04 12:24:57,770 - INFO - 192.168.88.37 - - [04/Mar/2026 12:24:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 12:24:59,435 - INFO - 192.168.88.37 - - [04/Mar/2026 12:24:59] "GET /register HTTP/1.1" 200 -
+2026-03-04 12:25:20,687 - INFO - User registered: hello@mail.com
+2026-03-04 12:25:20,687 - INFO - 192.168.88.37 - - [04/Mar/2026 12:25:20] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-04 12:25:20,695 - INFO - 192.168.88.37 - - [04/Mar/2026 12:25:20] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:25:26,183 - INFO - 192.168.88.37 - - [04/Mar/2026 12:25:26] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:25:58,672 - WARNING - Failed login attempt for hello@mail.com from 192.168.88.37
+2026-03-04 12:25:58,672 - INFO - 192.168.88.37 - - [04/Mar/2026 12:25:58] "POST /login HTTP/1.1" 200 -
+2026-03-04 12:26:11,536 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:11] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:26:11,567 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 12:26:29,558 - WARNING - Failed login attempt for hello@mail.com from 192.168.88.37
+2026-03-04 12:26:29,558 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:29] "POST /login HTTP/1.1" 200 -
+2026-03-04 12:26:35,627 - WARNING - Failed login attempt for hello@mail.com from 192.168.88.37
+2026-03-04 12:26:35,628 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:35] "POST /login HTTP/1.1" 200 -
+2026-03-04 12:26:37,010 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:37] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:26:40,245 - WARNING - Failed login attempt for hello@mail.com from 192.168.88.37
+2026-03-04 12:26:40,245 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:40] "POST /login HTTP/1.1" 200 -
+2026-03-04 12:26:41,710 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:41] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:26:44,161 - WARNING - Failed login attempt for hello@mail.com from 192.168.88.37
+2026-03-04 12:26:44,161 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:44] "POST /login HTTP/1.1" 200 -
+2026-03-04 12:26:45,531 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:26:45,531 - INFO - 192.168.88.37 - - [04/Mar/2026 12:26:45] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:04,558 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:28:04,559 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:04] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:04,724 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:28:04,724 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:04] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:04,876 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:28:04,876 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:04] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:05,010 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:28:05,010 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:05] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:07,857 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:28:07,858 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:07] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:11,043 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:11] "GET / HTTP/1.1" 200 -
+2026-03-04 12:28:12,587 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:28:12,587 - INFO - 192.168.88.37 - - [04/Mar/2026 12:28:12] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:22,567 - INFO - 192.168.88.13 - - [04/Mar/2026 12:28:22] "GET / HTTP/1.1" 200 -
+2026-03-04 12:28:25,343 - INFO - 192.168.88.13 - - [04/Mar/2026 12:28:25] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:31,953 - WARNING - Failed login attempt for hello@mail.com from 192.168.88.13
+2026-03-04 12:28:31,953 - INFO - 192.168.88.13 - - [04/Mar/2026 12:28:31] "POST /login HTTP/1.1" 200 -
+2026-03-04 12:28:33,725 - INFO - 192.168.88.13 - - [04/Mar/2026 12:28:33] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:28:54,729 - INFO - Successful login: hello@mail.com
+2026-03-04 12:28:54,732 - INFO - 192.168.88.13 - - [04/Mar/2026 12:28:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-04 12:28:54,757 - INFO - 192.168.88.13 - - [04/Mar/2026 12:28:54] "GET / HTTP/1.1" 200 -
+2026-03-04 12:29:00,392 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:29:00,392 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:00] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:29:09,302 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:09] "GET / HTTP/1.1" 200 -
+2026-03-04 12:29:11,259 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:29:11,260 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:11] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:29:14,410 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:29:14,411 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:14] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:29:14,568 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:29:14,568 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:14] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:29:14,685 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:29:14,685 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:14] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:29:17,926 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:17] "GET / HTTP/1.1" 200 -
+2026-03-04 12:29:19,738 - WARNING - Blocked login attempt from 192.168.88.37 (too many attempts)
+2026-03-04 12:29:19,738 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:19] "GET /login HTTP/1.1" 200 -
+2026-03-04 12:29:29,162 - INFO - 192.168.88.37 - - [04/Mar/2026 12:29:29] "GET /register HTTP/1.1" 200 -
